@@ -1,10 +1,12 @@
-import styles from './DevelopersPage.module.css'
+
 
 export default function DevelopersPage(){
 
     return (
-        <div className={styles.devsPage}>
-            <h1>Developers page</h1>
+        <div className="container">
+            <div className="row">
+                <h1>Developers</h1>
+            </div>
         </div>
     )
 }
